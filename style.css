@@ -102,7 +102,7 @@ sup{
 	width: 40vw;	
 }
 
-@media screen and (max-width: 600px){
+@media screen and (orientation: portrait){
 	#divIntro{
 		display: inline-block;
 		position: relative;
