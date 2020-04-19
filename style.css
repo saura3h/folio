@@ -1,0 +1,203 @@
+body{
+	background-color: #E5E5e5;
+}
+
+#divIntro{
+	display: inline-block;
+	position: relative;
+	top: 25vh;
+	left: 12vw;
+	margin-bottom: 50vh;
+	box-sizing: border-box;
+}
+
+#hey{
+	font-size: 2vw;
+	font-weight: 650;
+}
+
+#iam{
+	font-size: 2vw;
+	font-weight: 500;
+}
+
+#divName{
+	font-size: 9vw;
+	font-weight: 750;
+	margin-bottom: 1vw;
+	letter-spacing: -3px;
+}
+
+#divAbout, #divExp{
+	font-size: 1.8vw;
+	font-weight: 350;
+	margin-bottom: 2vw;
+	
+
+}
+
+#divE{
+	width: 35vw;
+	
+}
+
+#div6{
+	float: right;
+	width: 10vw;
+	font-size: 1.8vw;
+	font-weight: 600;
+	text-decoration: underline;
+	line-height: 1.5;
+}
+
+#div7{
+	display: none;			
+}
+
+
+#projects{
+	display: block;
+	position: relative;
+	left: 12vw;
+	width: 60vw;
+	margin-bottom: 30vh;
+}
+
+#pro{
+	font-size: 3vw;
+	font-weight: 400;	
+	
+	border-top: 2px solid grey;
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+#pro:hover{
+	font-weight: 500;
+}
+
+.frst{
+	border-bottom: 2px solid grey;
+}
+
+sup{
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+#contact{
+	display: block;
+	position: relative;
+	left: 12vw;
+	width: 40vw;
+	
+	margin-bottom: 30vh;
+}
+
+#divContact{
+	font-size: 1.8vw;
+	font-weight: 350;
+	width: 40vw;	
+}
+
+@media screen and (max-width: 600px){
+	#divIntro{
+		display: inline-block;
+		position: relative;
+		top: 20vh;
+		left: 3vw;
+		margin-bottom: 45vh;
+		box-sizing: border-box;
+	}
+
+	#divName{
+		font-size: 13vw;
+		font-weight: 750;
+		margin-bottom: 3vw;
+		letter-spacing: -3px;
+	}
+
+	#hey{
+		font-size: 5vw;
+		font-weight: 650;
+	}
+
+	#iam{
+		font-size: 5vw;
+		font-weight: 500;
+	}
+
+	#divAbout, #divExp{
+		font-size: 4.5vw;
+		font-weight: 350;
+		margin-bottom: 5vw;
+	}
+
+	#divE{
+		width: 90vw;
+	}
+
+	#div6{
+		display:none;		
+	}
+
+	#div7{
+		display: block;
+		top: 10vw;
+		width: 10vw;
+		font-size: 4.5vw;
+		font-weight: 600;
+		text-decoration: underline;
+		line-height: 1.5;		
+	}
+
+
+	#projects{
+		display: block;
+		position: relative;
+		left: 3vw;
+		width: 85vw;
+		margin-bottom: 30vh;
+	}
+
+	#pro{
+		font-size: 6vw;
+		font-weight: 400;	
+		
+		border-top: 2px solid grey;
+		
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+	}
+
+	#pro:hover{
+		font-weight: 500;
+	}
+
+	.frst{
+		border-bottom: 2px solid grey;
+	}
+
+	sup{
+		padding-left: 20px;
+		font-size: 18px;
+	}
+
+	#contact{
+		display: block;
+		position: relative;
+		left: 3vw;
+		width: 40vw;
+		
+		margin-bottom: 15vh;
+	}
+
+	#divContact{
+		font-size: 4.5vw;
+		font-weight: 350;
+		width: 90vw;	
+	}
+}
