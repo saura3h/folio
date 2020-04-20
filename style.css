@@ -58,6 +58,14 @@ body{
 	color: #000000;
 }
 
+.prolinks:active{
+	color: #000000;
+}
+
+.prolinks{
+	color: #000000;
+}
+
 .prolinks:link {
   text-decoration: none;
 }
@@ -179,6 +187,7 @@ sup{
   color: #000;
 }
 
+
 	#divIntro{
 		top: 20vh;
 		left: 3vw;
@@ -196,7 +205,7 @@ sup{
 	}
 
 	#divAbout, #divExp{
-		font-size: 4.5vw;
+		font-size: 4vw;
 		margin-bottom: 5vw;
 	}
 
@@ -212,7 +221,7 @@ sup{
 		display: block;
 		top: 10vw;
 		width: 10vw;
-		font-size: 4.5vw;
+		font-size: 5vw;
 		text-decoration: none;
 		line-height: 1.5;	
 		opacity: 0;
