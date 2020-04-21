@@ -73,7 +73,7 @@ body{
 #divIntro{
 	display: inline-block;
 	position: relative;
-	top: 25vh;
+	top: 15vh;
 	left: 12vw;
 	margin-bottom: 50vh;
 	box-sizing: border-box;
@@ -250,13 +250,6 @@ sup{
 		left: 3vw;
 		width: 40vw;
 		margin-bottom: 15vh;
-	}
-	
-	#divContactHead{
-		font-size: 15vw;
-		font-weight: 750;
-		margin-bottom: 1vw;
-		letter-spacing: -3px;
 	}
 
 	#divContact{
