@@ -251,6 +251,13 @@ sup{
 		width: 40vw;
 		margin-bottom: 15vh;
 	}
+	
+	#divContactHead{
+		font-size: 15vw;
+		font-weight: 750;
+		margin-bottom: 1vw;
+		letter-spacing: -3px;
+	}
 
 	#divContact{
 		font-size: 4.5vw;
