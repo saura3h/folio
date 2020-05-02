@@ -1,0 +1,259 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	background-color: #E5E5e5;
+	font-weight: 500;
+}
+
+@keyframes fade {
+  0% {
+    position: relative;
+    top: 2vh;
+    opacity: 0;
+  }
+
+  100% {
+  	position: relative;
+  	top: 0vh;
+    opacity: 1;
+  }
+}
+
+@keyframes weight{
+	100%{
+		color: #777;
+	}
+}
+
+.links{
+	background:
+     linear-gradient(
+       to bottom, #999 0%,
+       #999 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 650;
+  transition: background-size .2s;
+}
+
+.links:hover{
+  background-size: 4px 1vw;
+  color: #000;
+}
+
+.prolinks:hover{
+	animation-name: weight;
+	animation-duration: 0.3s;
+	animation-fill-mode: forwards;
+
+}
+
+.prolinks:visited{
+	color: #000000;
+}
+
+.prolinks:active{
+	color: #000000;
+}
+
+.prolinks{
+	color: #000000;
+}
+
+.prolinks:link {
+  text-decoration: none;
+}
+
+#divIntro{
+	display: inline-block;
+	position: relative;
+	top: 15vh;
+	left: 12vw;
+	margin-bottom: 50vh;
+	box-sizing: border-box;
+}
+
+#hey{
+	opacity: 0;
+	font-size: 2vw;
+	animation: fade 0.5s forwards;
+}
+
+#iam{
+	opacity: 0;
+	font-size: 2vw;
+	animation: fade 0.3s 0.8s forwards;
+	
+}
+
+#divName{
+	opacity: 0;
+	font-size: 9vw;
+	font-weight: 750;
+	margin-bottom: 1vw;
+	letter-spacing: -3px;
+	animation: fade 0.4s 1s forwards ease-in;
+}
+
+#divName:hover{
+	background: url(purpl.jpg);
+   background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-image: url(purpl.jpg);
+  opacity: 0.5;
+}
+
+#divAbout, #divExp{
+	font-size: 1.8vw;
+	margin-bottom: 2vw;
+}
+
+#divE{
+	opacity: 0;
+	width: 35vw;
+	animation: fade 0.4s 1.5s forwards;	
+}
+
+#div6{
+	float: right;
+	width: 10vw;
+	font-size: 1.8vw;
+	line-height: 1.5;
+	opacity: 0;
+	animation: fade 0.4s 1.7s forwards;
+}
+
+#div7{
+	display: none;			
+}
+
+
+#projects{
+	display: block;
+	position: relative;
+	left: 12vw;
+	width: 60vw;
+	margin-bottom: 30vh;
+}
+
+#pro{
+	font-size: 3vw;
+	border-top: 2px solid grey;
+	padding-top: 3.5vw;
+	padding-bottom: 3.5vw;
+
+}
+
+.frst{
+	border-bottom: 2px solid grey;
+}
+
+sup{
+	padding-left: 20px;
+	font-size: 1.5vw;
+}
+
+#contact{
+	display: block;
+	position: relative;
+	left: 12vw;
+	width: 40vw;
+	margin-bottom: 30vh;
+}
+
+#divContactHead{
+	font-size: 9vw;
+	font-weight: 750;
+	margin-bottom: 1vw;
+	letter-spacing: -3px;
+}
+
+#divContact{
+	font-size: 1.8vw;
+	width: 40vw;	
+}
+
+@media screen and (orientation: portrait){
+	
+	.links:hover{
+  background-size: 4px 3vw;
+  color: #000;
+}
+
+
+	#divIntro{
+		top: 20vh;
+		left: 3vw;
+		margin-bottom: 45vh;
+	}
+
+	#divName{
+		font-size: 13vw;
+		font-weight: 900;
+		margin-bottom: 3vw;
+	}
+
+	#hey, #iam{
+		font-size: 4.5vw;		
+	}
+
+	#divAbout, #divExp{
+		font-size: 4vw;
+		margin-bottom: 5vw;
+	}
+
+	#divE{
+		width: 90vw;
+	}
+
+	#div6{
+		display:none;		
+	}
+
+	#div7{
+		display: block;
+		top: 10vw;
+		width: 10vw;
+		font-size: 5vw;
+		text-decoration: none;
+		line-height: 1.5;	
+		opacity: 0;
+		animation: fade 0.4s 1.7s forwards;	
+	}
+
+
+	#projects{
+		left: 3vw;
+		width: 85vw;
+	}
+
+	#pro{
+		font-size: 8vw;
+		border-top: 2px solid grey;
+		padding-top: 9vw;
+		padding-bottom: 9vw;
+	}
+
+	sup{
+		padding-left: 6vw;
+		font-size: 4vw;
+	}
+
+	#contact{
+		left: 3vw;
+		width: 40vw;
+		margin-bottom: 15vh;
+	}
+
+	#divContact{
+		font-size: 4.5vw;
+		width: 90vw;	
+	}
+}
