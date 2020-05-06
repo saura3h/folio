@@ -3,7 +3,7 @@ html {
 }
 
 body{
-	background-color: #E5E5e5;
+	/*background-color: #E5E5e5;*/
 	font-weight: 500;
 }
 
@@ -30,8 +30,8 @@ body{
 .links{
 	background:
      linear-gradient(
-       to bottom, #999 0%,
-       #999 100%
+       to bottom, #848484 0%,
+       #848484 100%
      );
     background-position: 0 100%;
     background-repeat: repeat-x;
@@ -139,13 +139,13 @@ body{
 	display: block;
 	position: relative;
 	left: 12vw;
-	width: 60vw;
+	width: 3vw;
 	margin-bottom: 30vh;
 }
 
 #pro{
-	font-size: 3vw;
-	border-top: 2px solid grey;
+	font-size: 7vw;
+	border-top: 3px solid grey;
 	padding-top: 3.5vw;
 	padding-bottom: 3.5vw;
 
@@ -231,11 +231,11 @@ sup{
 
 	#projects{
 		left: 3vw;
-		width: 85vw;
+		width: 5vw;
 	}
 
 	#pro{
-		font-size: 8vw;
+		font-size: 10vw;
 		border-top: 2px solid grey;
 		padding-top: 9vw;
 		padding-bottom: 9vw;
