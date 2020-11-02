@@ -62,27 +62,16 @@
 margin-left: 8px;
 }
 
-.image-4 {
-  margin-right: 24px;
-}
-
-.image-5 {
-  margin-right: 24px;
-}
-
-.image-6 {
-  margin-right: 24px;
-}
-
 .link {
   color: #fff;
   text-decoration: line-through;
 }
 
-.link-2 {
+.link:hover {
   color: #fff;
-  text-decoration: line-through;
+  text-decoration: none;
 }
+
 
 .section {
   margin-top: 256px;
