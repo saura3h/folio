@@ -1,7 +1,10 @@
+@import url('general-sans.css');
+
 .body {
-  padding: 128px 28vw;
-  background-color: #000;
-  color: #fefefe;
+  padding: 128px 128px;
+  background-color: #101010;
+  color: #FFF;
+  font-family: 'GeneralSans-Light', serif;
 }
 
 .image {
@@ -9,27 +12,27 @@
 }
 
 .h1 {
-  margin-bottom: 64px;
-  font-family: DM Sans, sans-serif;
-  color: #fefefe;
-  font-size: 56px;
+  margin-bottom: 96px;
+  font-family: 'GeneralSans-Medium';
+  font-size: 88px;
+  letter-spacing: -0.6px;
   line-height: 120%;
   font-weight: 400;
   text-decoration: none;
+  color: #FFF;
 }
 
 .bodytext {
   margin-right: 52px;
   margin-bottom: 96px;
-  font-family: DM Sans, sans-serif;
-  color: #a8a8a8;
-  font-size: 22px;
+  color: #C3C3C3;
+  font-size: 32px;
   line-height: 150%;
 }
 
 .bodylink {
-  font-family: DM Sans, sans-serif;
-  color: #ededed;
+  font-family: 'GeneralSans-Medium';
+  color: #FFF;
   font-weight: 400;
   text-decoration: none;
 }
@@ -37,8 +40,7 @@
 .label {
   margin-bottom: 32px;
   opacity: 0.5;
-  font-family: DM Sans, sans-serif;
-  color: #fff;
+  color: #FFF;
   font-size: 18px;
   line-height: 150%;
 }
@@ -49,14 +51,13 @@
   padding-bottom: 24px;
   padding-left: 32px;
   border-radius: 8px;
-  background-color: #1e1e23;
 }
 
 .h2 {
   display: inline;
   margin-right: 4px;
-  font-family: DM Sans, sans-serif;
-  font-size: 56px;
+  font-size: 88px;
+  font-family: 'GeneralSans-Medium';
   line-height: 110%;
   font-weight: 400;
 }
@@ -66,8 +67,7 @@
   margin-bottom: 16px;
   padding: 24px 0px;
   border-radius: 8px;
-  background-color: #000000;
-  color: #fefefe;
+  color: #FFF;
   text-decoration: none;
 }
 
@@ -85,8 +85,6 @@
 
 .subtext {
   opacity: 0.5;
-  font-family: DM Sans, sans-serif;
-  color: #fff;
   font-size: 18px;
   line-height: 150%;
   font-weight: 400;
@@ -143,17 +141,20 @@
   .bodytext {
     margin-bottom: 64px;
     font-size: 16px;
+    font-family: 'GeneralSans-Regular', serif;
   }
   
   .h2 {
   display: inline;
   margin-right: 4px;
-  font-family: DM Sans, sans-serif;
   font-size: 28px;
   line-height: 110%;
   font-weight: 400;
 }
 
+.casestudyblock {
+  padding: 12px 0px;
+}
 
   .label {
     margin-bottom: 16px;
