@@ -4,7 +4,7 @@
   padding: 128px 128px;
   background-color: #101010;
   color: #FFF;
-  font-family: 'GeneralSans-Light', serif;
+  font-family: 'GeneralSans-Light', sans-serif;
 }
 
 .image {
@@ -13,7 +13,7 @@
 
 .h1 {
   margin-bottom: 96px;
-  font-family: 'GeneralSans-Medium';
+  font-family: 'GeneralSans-Medium', sans-serif;
   font-size: 88px;
   letter-spacing: -0.6px;
   line-height: 120%;
@@ -28,10 +28,11 @@
   color: #C3C3C3;
   font-size: 32px;
   line-height: 150%;
+  letter-spacing: 0.2px;
 }
 
 .bodylink {
-  font-family: 'GeneralSans-Medium';
+  font-family: 'GeneralSans-Medium', sans-serif;
   color: #FFF;
   font-weight: 400;
   text-decoration: none;
@@ -57,7 +58,7 @@
   display: inline;
   margin-right: 4px;
   font-size: 88px;
-  font-family: 'GeneralSans-Medium';
+  font-family: 'GeneralSans-Medium', sans-serif;
   line-height: 110%;
   font-weight: 400;
 }
@@ -87,7 +88,7 @@
   opacity: 0.5;
   font-size: 18px;
   line-height: 150%;
-  font-family: 'GeneralSans-Medium';
+  font-family: 'GeneralSans-Regular', sans-serif;
 }
 
 .div-block-3 {
@@ -141,7 +142,7 @@
   .bodytext {
     margin-bottom: 64px;
     font-size: 16px;
-    font-family: 'GeneralSans-Regular', serif;
+    font-family: 'GeneralSans-Regular', sans-serif;
   }
   
   .h2 {
