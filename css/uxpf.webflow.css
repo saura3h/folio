@@ -2,9 +2,9 @@
 
 .body {
   padding: 128px 128px;
-  background-color: #101010;
-  color: #FFF;
-  font-family: 'GeneralSans-Light', sans-serif;
+  background-color: #1c1c1c;
+  color: #E7E8EA;
+  font-family: 'GeneralSans-Light', serif;
 }
 
 .image {
@@ -13,13 +13,28 @@
 
 .h1 {
   margin-bottom: 96px;
-  font-family: 'GeneralSans-Medium', sans-serif;
+  font-family: 'GeneralSans-Medium';
   font-size: 88px;
   letter-spacing: -0.6px;
   line-height: 120%;
   font-weight: 400;
   text-decoration: none;
-  color: #FFF;
+  color: #E7E8EA;
+}
+
+.h1hr{
+  margin-bottom: 96px;
+  font-family: 'GeneralSans-Medium';
+  font-size: 88px;
+  letter-spacing: -0.6px;
+  line-height: 120%;
+  font-weight: 400;
+  text-decoration: none;
+  color: #E7E8EA;
+}
+
+.h1hr:hover{
+  color: #55C074;
 }
 
 .bodytext {
@@ -28,20 +43,26 @@
   color: #C3C3C3;
   font-size: 32px;
   line-height: 150%;
-  letter-spacing: 0.2px;
 }
 
 .bodylink {
-  font-family: 'GeneralSans-Medium', sans-serif;
-  color: #FFF;
+  font-family: 'GeneralSans-Medium';
+  color: #CCDEFF;
   font-weight: 400;
+  text-decoration: none;
+}
+
+.bodylink:hover{
+  color: #79A8FF;
   text-decoration: none;
 }
 
 .label {
   margin-bottom: 32px;
+  margin-top: 32px;
+  font-family: 'GeneralSans-Medium';
   opacity: 0.5;
-  color: #FFF;
+  color: #E7E8EA;
   font-size: 18px;
   line-height: 150%;
 }
@@ -58,9 +79,13 @@
   display: inline;
   margin-right: 4px;
   font-size: 88px;
-  font-family: 'GeneralSans-Medium', sans-serif;
+  font-family: 'GeneralSans-Medium';
   line-height: 110%;
   font-weight: 400;
+}
+
+.h2:hover{
+  color: #79A8FF;
 }
 
 .casestudyblock {
@@ -68,12 +93,12 @@
   margin-bottom: 16px;
   padding: 24px 0px;
   border-radius: 8px;
-  color: #FFF;
+  color: #E7E8EA;
   text-decoration: none;
 }
 
 .image-2 {
-  color: #fff;
+  color: #E7E8EA;
 }
 
 .div-block-2 {
@@ -88,7 +113,7 @@
   opacity: 0.5;
   font-size: 18px;
   line-height: 150%;
-  font-family: 'GeneralSans-Regular', sans-serif;
+  font-weight: 400;
 }
 
 .div-block-3 {
@@ -123,6 +148,11 @@
     font-size: 32px;
   }
 
+  .h1hr {
+    margin-bottom: 48px;
+    font-size: 32px;
+  }
+
   .bodytext {
     margin-right: 0px;
     margin-bottom: 64px;
@@ -139,10 +169,15 @@
     font-size: 28px;
   }
 
+.h1hr {
+    font-size: 28px;
+  }
+
+ 
   .bodytext {
     margin-bottom: 64px;
     font-size: 16px;
-    font-family: 'GeneralSans-Regular', sans-serif;
+    font-family: 'GeneralSans-Regular', serif;
   }
   
   .h2 {
