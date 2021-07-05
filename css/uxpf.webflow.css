@@ -1,10 +1,18 @@
 @import url('general-sans.css');
 
+:root{
+  --bg: #fafafa;
+  --text: #1c1c1c;
+  --text2: #3F464B;
+  --blue: #0F62FE;
+  --green: #55C074;
+}
+
 .body {
   padding: 128px 128px;
-  background-color: #1c1c1c;
-  color: #E7E8EA;
-  font-family: 'GeneralSans-Light', serif;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'GeneralSans-Regular', serif;
 }
 
 .image {
@@ -19,7 +27,7 @@
   line-height: 120%;
   font-weight: 400;
   text-decoration: none;
-  color: #E7E8EA;
+  color: var(--text);
 }
 
 .h1hr{
@@ -30,30 +38,30 @@
   line-height: 120%;
   font-weight: 400;
   text-decoration: none;
-  color: #E7E8EA;
+  color: var(--text);
 }
 
 .h1hr:hover{
-  color: #55C074;
+  color: var(--blue);
 }
 
 .bodytext {
   margin-right: 52px;
   margin-bottom: 96px;
-  color: #C3C3C3;
+  color: var(--text2);
   font-size: 32px;
   line-height: 150%;
 }
 
 .bodylink {
   font-family: 'GeneralSans-Medium';
-  color: #CCDEFF;
+  color: var(--text);
   font-weight: 400;
   text-decoration: none;
 }
 
 .bodylink:hover{
-  color: #79A8FF;
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -61,8 +69,8 @@
   margin-bottom: 32px;
   margin-top: 32px;
   font-family: 'GeneralSans-Medium';
-  opacity: 0.5;
-  color: #E7E8EA;
+  opacity: 0.8;
+  color: var(--text);
   font-size: 18px;
   line-height: 150%;
 }
@@ -85,7 +93,7 @@
 }
 
 .h2:hover{
-  color: #79A8FF;
+  color: var(--blue);
 }
 
 .casestudyblock {
@@ -93,12 +101,12 @@
   margin-bottom: 16px;
   padding: 24px 0px;
   border-radius: 8px;
-  color: #E7E8EA;
+  color: var(--text);
   text-decoration: none;
 }
 
 .image-2 {
-  color: #E7E8EA;
+  color: var(--text);
 }
 
 .div-block-2 {
@@ -110,10 +118,11 @@
 }
 
 .subtext {
-  opacity: 0.5;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 150%;
   font-weight: 400;
+  color: var(--text2);
+  opacity: 0.8;
 }
 
 .div-block-3 {
