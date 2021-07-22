@@ -2,9 +2,9 @@
 
 :root{
   --bg: #efe5df;
-  --text: #1c1c1c;
-  --text2: #3F464B;
-  --blue: #0F62FE;
+  --text: #000000;
+  --text2: #272021;
+  --blue: #ec660b;
   --green: #55C074;
 }
 
@@ -12,7 +12,7 @@
   padding: 128px 128px;
   background-color: var(--bg);
   color: var(--text);
-  font-family: 'GeneralSans-Regular', serif;
+  font-family: 'GeneralSans-Regular', sans-serif;
 }
 
 .image {
@@ -186,7 +186,7 @@
   .bodytext {
     margin-bottom: 64px;
     font-size: 18px;
-    font-family: 'GeneralSans-Medium', serif;
+    font-family: 'GeneralSans-Regular', sans-serif;
   }
   
   .h2 {
