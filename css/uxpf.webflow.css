@@ -1,10 +1,10 @@
 @import url('general-sans.css');
 
 :root{
-  --bg: #efe5df;
-  --text: #000000;
-  --text2: #272021;
-  --blue: #ec660b;
+  --bg: #1b1b1b;
+  --text: #ffffff;
+  --text2: #aaaab0;
+  --blue: #ffa76c;
   --green: #55C074;
 }
 
