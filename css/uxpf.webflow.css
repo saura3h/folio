@@ -71,8 +71,9 @@
   font-family: 'GeneralSans-Medium';
   opacity: 0.8;
   color: var(--text);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 150%;
+  letter-spacing: 1px;
 }
 
 .div-block {
