@@ -175,24 +175,24 @@
   }
 
   .h1 {
-    font-size: 28px;
+    font-size: 32px;
   }
 
 .h1hr {
-    font-size: 28px;
+    font-size: 32px;
   }
 
  
   .bodytext {
     margin-bottom: 64px;
-    font-size: 16px;
-    font-family: 'GeneralSans-Regular', serif;
+    font-size: 18px;
+    font-family: 'GeneralSans-Medium', serif;
   }
   
   .h2 {
   display: inline;
   margin-right: 4px;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 110%;
   font-weight: 400;
 }
